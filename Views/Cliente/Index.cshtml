@@ -1,0 +1,76 @@
+﻿@model Pagina_Administrador.Models.ClienteViewModel
+
+@{
+    ViewData["Title"] = "Clientes";
+}
+
+<h2 class="mb-4">Gestión de Clientes</h2>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="@(Model.Cliente.IdCliente == 0 ? "Crear" : "Editar")" method="post">
+            <input type="hidden" asp-for="Cliente.IdCliente" />
+
+            <div class="form-group">
+                <label asp-for="Cliente.NombreCliente" class="control-label"></label>
+                <input asp-for="Cliente.NombreCliente" class="form-control" />
+                <span asp-validation-for="Cliente.NombreCliente" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Cliente.Direccion" class="control-label"></label>
+                <input asp-for="Cliente.Direccion" class="form-control" />
+                <span asp-validation-for="Cliente.Direccion" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Cliente.Telefono" class="control-label"></label>
+                <input asp-for="Cliente.Telefono" class="form-control" />
+                <span asp-validation-for="Cliente.Telefono" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Cliente.Correo" class="control-label"></label>
+                <input asp-for="Cliente.Correo" class="form-control" />
+                <span asp-validation-for="Cliente.Correo" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-3">
+                <button type="submit" class="btn btn-primary">Guardar</button>
+                <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+            </div>
+        </form>
+    </div>
+
+    <div class="col-md-8">
+        <h4>Lista de Clientes</h4>
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Dirección</th>
+                    <th>Teléfono</th>
+                    <th>Correo</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.ListaClientes)
+                {
+                    <tr>
+                        <td>@item.IdCliente</td>
+                        <td>@item.NombreCliente</td>
+                        <td>@item.Direccion</td>
+                        <td>@item.Telefono</td>
+                        <td>@item.Correo</td>
+                        <td>
+                            <a asp-action="Index" asp-route-id="@item.IdCliente" class="btn btn-sm btn-warning">Editar</a>
+                            <a asp-action="Eliminar" asp-route-id="@item.IdCliente" class="btn btn-sm btn-danger" onclick="return confirm('¿Seguro que deseas eliminar este cliente?')">Eliminar</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

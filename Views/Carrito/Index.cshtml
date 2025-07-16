@@ -1,0 +1,66 @@
+﻿@model Pagina_Administrador.Models.CarritoViewModel
+
+@{
+    ViewData["Title"] = "Carrito";
+}
+
+<h2 class="mb-4">Gestión de Carrito</h2>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="@(Model.Carrito.IdCarrito == 0 ? "Crear" : "Editar")" method="post">
+            <input type="hidden" asp-for="Carrito.IdCarrito" />
+
+            <div class="form-group">
+                <label asp-for="Carrito.IdUsuario" class="control-label"></label>
+                <input asp-for="Carrito.IdUsuario" class="form-control" />
+                <span asp-validation-for="Carrito.IdUsuario" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Carrito.IdProducto" class="control-label"></label>
+                <input asp-for="Carrito.IdProducto" class="form-control" />
+                <span asp-validation-for="Carrito.IdProducto" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Carrito.Cantidad" class="control-label"></label>
+                <input asp-for="Carrito.Cantidad" class="form-control" />
+                <span asp-validation-for="Carrito.Cantidad" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-3">
+                <button type="submit" class="btn btn-primary">Guardar</button>
+                <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+            </div>
+        </form>
+    </div>
+
+    <div class="col-md-8">
+        <h4>Lista de Productos en Carrito</h4>
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>ID Usuario</th>
+                    <th>ID Producto</th>
+                    <th>Cantidad</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.ListaCarrito)
+                {
+                    <tr>
+                        <td>@item.IdUsuario</td>
+                        <td>@item.IdProducto</td>
+                        <td>@item.Cantidad</td>
+                        <td>
+                            <a asp-action="Index" asp-route-id="@item.IdCarrito" class="btn btn-sm btn-warning">Editar</a>
+                            <a asp-action="Eliminar" asp-route-id="@item.IdCarrito" class="btn btn-sm btn-danger" onclick="return confirm('¿Estás seguro de eliminar este registro?')">Eliminar</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

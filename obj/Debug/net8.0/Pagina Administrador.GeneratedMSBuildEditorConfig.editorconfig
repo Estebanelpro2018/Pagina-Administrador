@@ -1,0 +1,101 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Pagina_Administrador
+build_property.RootNamespace = Pagina_Administrador
+build_property.ProjectDir = C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Usuario/Desktop/Pagina Administrador/Pagina Administrador/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/Desktop/Pagina Administrador/Pagina Administrador/Views/Carrito/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/Desktop/Pagina Administrador/Pagina Administrador/Views/Categoria/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/Desktop/Pagina Administrador/Pagina Administrador/Views/Cliente/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/Desktop/Pagina Administrador/Pagina Administrador/Views/Compra/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/Desktop/Pagina Administrador/Pagina Administrador/Views/DetalleCompra/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWxsZUNvbXByYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/Desktop/Pagina Administrador/Pagina Administrador/Views/Entrada/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50cmFkYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/Desktop/Pagina Administrador/Pagina Administrador/Views/Home/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/Desktop/Pagina Administrador/Pagina Administrador/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/Desktop/Pagina Administrador/Pagina Administrador/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/Desktop/Pagina Administrador/Pagina Administrador/Views/Inventario/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50YXJpb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/Desktop/Pagina Administrador/Pagina Administrador/Views/Producto/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/Desktop/Pagina Administrador/Pagina Administrador/Views/QuienesSomos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpZW5lc1NvbW9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/Desktop/Pagina Administrador/Pagina Administrador/Views/Salida/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsaWRhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/Desktop/Pagina Administrador/Pagina Administrador/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/Desktop/Pagina Administrador/Pagina Administrador/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/Desktop/Pagina Administrador/Pagina Administrador/Views/Usuario/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/Desktop/Pagina Administrador/Pagina Administrador/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/Desktop/Pagina Administrador/Pagina Administrador/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/Desktop/Pagina Administrador/Pagina Administrador/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-x0rxipgqe7

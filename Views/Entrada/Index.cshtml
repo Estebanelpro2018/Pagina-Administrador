@@ -1,0 +1,68 @@
+﻿@model Pagina_Administrador.Models.EntradaViewModel
+
+@{
+    ViewData["Title"] = "Gestión de Entradas";
+}
+
+<h2 class="mb-4">Gestión de Entradas</h2>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="@(Model.Entrada.IdEntrada == 0 ? "Crear" : "Editar")" method="post">
+            <input type="hidden" asp-for="Entrada.IdEntrada" />
+
+            <div class="form-group">
+                <label asp-for="Entrada.IdProducto" class="control-label"></label>
+                <input asp-for="Entrada.IdProducto" class="form-control" />
+                <span asp-validation-for="Entrada.IdProducto" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Entrada.Cantidad" class="control-label"></label>
+                <input asp-for="Entrada.Cantidad" class="form-control" />
+                <span asp-validation-for="Entrada.Cantidad" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Entrada.Fecha" class="control-label"></label>
+                <input asp-for="Entrada.Fecha" type="datetime-local" class="form-control" />
+                <span asp-validation-for="Entrada.Fecha" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-3">
+                <button type="submit" class="btn btn-primary">Guardar</button>
+                <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+            </div>
+        </form>
+    </div>
+
+    <div class="col-md-8">
+        <h4>Lista de Entradas</h4>
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>ID Producto</th>
+                    <th>Cantidad</th>
+                    <th>Fecha</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.ListaEntradas)
+                {
+                    <tr>
+                        <td>@item.IdEntrada</td>
+                        <td>@item.IdProducto</td>
+                        <td>@item.Cantidad</td>
+                        <td>@item.Fecha?.ToString("yyyy-MM-dd HH:mm")</td>
+                        <td>
+                            <a asp-action="Index" asp-route-id="@item.IdEntrada" class="btn btn-sm btn-warning">Editar</a>
+                            <a asp-action="Eliminar" asp-route-id="@item.IdEntrada" class="btn btn-sm btn-danger" onclick="return confirm('¿Seguro que deseas eliminar esta entrada?')">Eliminar</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

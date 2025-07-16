@@ -1,0 +1,52 @@
+﻿@model Pagina_Administrador.Models.CategoriaViewModel
+
+@{
+    ViewData["Title"] = "Categorías";
+}
+
+<h2 class="mb-4">Gestión de Categorías</h2>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="@(Model.Categoria.IdCategoria == 0 ? "Crear" : "Editar")" method="post">
+            <input type="hidden" asp-for="Categoria.IdCategoria" />
+
+            <div class="form-group">
+                <label asp-for="Categoria.NombreCategoria" class="control-label"></label>
+                <input asp-for="Categoria.NombreCategoria" class="form-control" />
+                <span asp-validation-for="Categoria.NombreCategoria" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-3">
+                <button type="submit" class="btn btn-primary">Guardar</button>
+                <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+            </div>
+        </form>
+    </div>
+
+    <div class="col-md-8">
+        <h4>Lista de Categorías</h4>
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre Categoría</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.ListaCategorias)
+                {
+                    <tr>
+                        <td>@item.IdCategoria</td>
+                        <td>@item.NombreCategoria</td>
+                        <td>
+                            <a asp-action="Index" asp-route-id="@item.IdCategoria" class="btn btn-sm btn-warning">Editar</a>
+                            <a asp-action="Eliminar" asp-route-id="@item.IdCategoria" class="btn btn-sm btn-danger" onclick="return confirm('¿Estás seguro de eliminar esta categoría?')">Eliminar</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

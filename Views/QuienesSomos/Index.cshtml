@@ -1,0 +1,70 @@
+﻿@model Pagina_Administrador.Models.QuienesSomos
+
+@{
+    ViewData["Title"] = "Gestión de Quiénes Somos";
+}
+
+<h2>Gestión de Quiénes Somos</h2>
+
+<form asp-action="Editar" method="post">
+    <input type="hidden" asp-for="IdInfo" />
+
+    <div class="form-group">
+        <label asp-for="Titulo" class="control-label">Título</label>
+        <input asp-for="Titulo" class="form-control" />
+        <span asp-validation-for="Titulo" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Descripcion" class="control-label">Descripción</label>
+        <textarea asp-for="Descripcion" class="form-control" rows="5"></textarea>
+        <span asp-validation-for="Descripcion" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="VideoQuienesSomos" class="control-label">Video</label>
+        <input asp-for="VideoQuienesSomos" class="form-control" />
+        <span asp-validation-for="VideoQuienesSomos" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Subtitulo1" class="control-label">Subtítulo 1</label>
+        <input asp-for="Subtitulo1" class="form-control" />
+        <span asp-validation-for="Subtitulo1" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Descripcion1" class="control-label">Descripción 1</label>
+        <textarea asp-for="Descripcion1" class="form-control" rows="3"></textarea>
+        <span asp-validation-for="Descripcion1" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Subtitulo2" class="control-label">Subtítulo 2</label>
+        <input asp-for="Subtitulo2" class="form-control" />
+        <span asp-validation-for="Subtitulo2" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Descripcion2" class="control-label">Descripción 2</label>
+        <textarea asp-for="Descripcion2" class="form-control" rows="3"></textarea>
+        <span asp-validation-for="Descripcion2" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Subtitulo3" class="control-label">Subtítulo 3</label>
+        <input asp-for="Subtitulo3" class="form-control" />
+        <span asp-validation-for="Subtitulo3" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Descripcion3" class="control-label">Descripción 3</label>
+        <textarea asp-for="Descripcion3" class="form-control" rows="3"></textarea>
+        <span asp-validation-for="Descripcion3" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mt-3">
+        <button type="submit" class="btn btn-success">Guardar</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+    </div>
+</form>

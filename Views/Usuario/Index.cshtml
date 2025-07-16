@@ -1,0 +1,86 @@
+﻿@model Pagina_Administrador.Models.UsuarioViewModel
+
+@{
+    ViewData["Title"] = "Gestión de Usuarios";
+}
+
+<h2 class="mb-4">Usuarios del Sistema</h2>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="@(Model.Usuario.IdUsuario == 0 ? "Crear" : "Editar")" method="post">
+            <input type="hidden" asp-for="Usuario.IdUsuario" />
+
+            <div class="form-group">
+                <label asp-for="Usuario.NombreUsuario" class="control-label">Nombre de Usuario</label>
+                <input asp-for="Usuario.NombreUsuario" class="form-control" />
+                <span asp-validation-for="Usuario.NombreUsuario" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Usuario.Email" class="control-label">Email</label>
+                <input asp-for="Usuario.Email" type="email" class="form-control" />
+                <span asp-validation-for="Usuario.Email" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Usuario.Clave" class="control-label">Clave</label>
+                <input asp-for="Usuario.Clave" class="form-control" />
+                <span asp-validation-for="Usuario.Clave" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Usuario.Rol" class="control-label">Rol</label>
+                <select asp-for="Usuario.Rol" class="form-control">
+                    <option value="">Seleccione un rol</option>
+                    <option value="admin">Admin</option>
+                    <option value="cliente">Cliente</option>
+                </select>
+                <span asp-validation-for="Usuario.Rol" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Usuario.CreatedAt" class="control-label">Fecha de Registro</label>
+                <input asp-for="Usuario.CreatedAt" class="form-control" type="datetime-local" />
+                <span asp-validation-for="Usuario.CreatedAt" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-3">
+                <button type="submit" class="btn btn-success">Guardar</button>
+                <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+            </div>
+        </form>
+    </div>
+
+    <div class="col-md-8">
+        <h4>Lista de Usuarios</h4>
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Usuario</th>
+                    <th>Email</th>
+                    <th>Rol</th>
+                    <th>Fecha Registro</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.ListaUsuarios)
+                {
+                    <tr>
+                        <td>@item.IdUsuario</td>
+                        <td>@item.NombreUsuario</td>
+                        <td>@item.Email</td>
+                        <td>@item.Rol</td>
+                        <td>@(item.CreatedAt?.ToString("yyyy-MM-dd HH:mm"))</td>
+                        <td>
+                            <a asp-action="Index" asp-route-id="@item.IdUsuario" class="btn btn-sm btn-warning">Editar</a>
+                            <a asp-action="Eliminar" asp-route-id="@item.IdUsuario" class="btn btn-sm btn-danger" onclick="return confirm('¿Deseas eliminar este usuario?')">Eliminar</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

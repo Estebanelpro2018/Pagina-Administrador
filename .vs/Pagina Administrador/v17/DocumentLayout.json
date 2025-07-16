@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Pagina Administrador\\Pagina Administrador\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB781187-E54B-44E3-8FE2-87CEA600F474}|Pagina Administrador.csproj|c:\\users\\usuario\\desktop\\pagina administrador\\pagina administrador\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB781187-E54B-44E3-8FE2-87CEA600F474}|Pagina Administrador.csproj|solutionrelative:views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB781187-E54B-44E3-8FE2-87CEA600F474}|Pagina Administrador.csproj|c:\\users\\usuario\\desktop\\pagina administrador\\pagina administrador\\views\\quienessomos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB781187-E54B-44E3-8FE2-87CEA600F474}|Pagina Administrador.csproj|solutionrelative:views\\quienessomos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB781187-E54B-44E3-8FE2-87CEA600F474}|Pagina Administrador.csproj|c:\\users\\usuario\\desktop\\pagina administrador\\pagina administrador\\controllers\\detallecompracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB781187-E54B-44E3-8FE2-87CEA600F474}|Pagina Administrador.csproj|solutionrelative:controllers\\detallecompracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB781187-E54B-44E3-8FE2-87CEA600F474}|Pagina Administrador.csproj|c:\\users\\usuario\\desktop\\pagina administrador\\pagina administrador\\views\\detallecompra\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB781187-E54B-44E3-8FE2-87CEA600F474}|Pagina Administrador.csproj|solutionrelative:views\\detallecompra\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB781187-E54B-44E3-8FE2-87CEA600F474}|Pagina Administrador.csproj|c:\\users\\usuario\\desktop\\pagina administrador\\pagina administrador\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DB781187-E54B-44E3-8FE2-87CEA600F474}|Pagina Administrador.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB781187-E54B-44E3-8FE2-87CEA600F474}|Pagina Administrador.csproj|c:\\users\\usuario\\desktop\\pagina administrador\\pagina administrador\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB781187-E54B-44E3-8FE2-87CEA600F474}|Pagina Administrador.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Pagina Administrador\\Pagina Administrador\\Views\\QuienesSomos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\QuienesSomos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Pagina Administrador\\Pagina Administrador\\Views\\QuienesSomos\\Index.cshtml",
+              "RelativeToolTip": "Views\\QuienesSomos\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T03:22:50.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Pagina Administrador\\Pagina Administrador\\Views\\Home\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Pagina Administrador\\Pagina Administrador\\Views\\Home\\Dashboard.cshtml",
+              "RelativeToolTip": "Views\\Home\\Dashboard.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T03:06:46.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DetalleCompraController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Pagina Administrador\\Pagina Administrador\\Controllers\\DetalleCompraController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DetalleCompraController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Pagina Administrador\\Pagina Administrador\\Controllers\\DetalleCompraController.cs",
+              "RelativeToolTip": "Controllers\\DetalleCompraController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T02:45:11.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Pagina Administrador\\Pagina Administrador\\Views\\DetalleCompra\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\DetalleCompra\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Pagina Administrador\\Pagina Administrador\\Views\\DetalleCompra\\Index.cshtml",
+              "RelativeToolTip": "Views\\DetalleCompra\\Index.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAcwDYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T02:40:19.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Pagina Administrador\\Pagina Administrador\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Pagina Administrador\\Pagina Administrador\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-16T02:04:10.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Pagina Administrador\\Pagina Administrador\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Pagina Administrador\\Pagina Administrador\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T05:33:50.022Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

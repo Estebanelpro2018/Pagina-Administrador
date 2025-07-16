@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center mb-4">Panel de Administración</h2>
+    <p class="text-center">Bienvenido al sistema. Selecciona una opción:</p>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+        <div class="col"><a class="btn btn-outline-primary w-100" asp-controller="Producto" asp-action="Index">Gestión de Productos</a></div>
+        <div class="col"><a class="btn btn-outline-primary w-100" asp-controller="Categoria" asp-action="Index">Categorías</a></div>
+        
+        <div class="col"><a class="btn btn-outline-primary w-100" asp-controller="Compra" asp-action="Index">Compras</a></div>
+        <div class="col"><a class="btn btn-outline-primary w-100" asp-controller="DetalleCompra" asp-action="Index">Detalle Compras</a></div>
+        
+        
+        
+        <div class="col"><a class="btn btn-outline-primary w-100" asp-controller="Carrito" asp-action="Index">Carrito</a></div>
+        <div class="col"><a class="btn btn-outline-primary w-100" asp-controller="Usuario" asp-action="Index">Usuarios</a></div>
+        <div class="col"><a class="btn btn-outline-primary w-100" asp-controller="QuienesSomos" asp-action="Index">¿Quiénes Somos?</a></div>
+    </div>
+</div>

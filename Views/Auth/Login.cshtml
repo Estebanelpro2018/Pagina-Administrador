@@ -1,0 +1,23 @@
+﻿@model Pagina_Administrador.Models.Usuario
+@{
+    ViewData["Title"] = "Iniciar sesión";
+}
+
+<h2>Iniciar sesión</h2>
+
+@if (ViewBag.Mensaje != null)
+{
+    <div style="color:red">@ViewBag.Mensaje</div>
+}
+
+<form asp-action="Login" method="post">
+    <div>
+        <label>Email:</label>
+        <input asp-for="Email" type="email" required />
+    </div>
+    <div>
+        <label>Contraseña:</label>
+        <input asp-for="Clave" type="password" required />
+    </div>
+    <button type="submit">Ingresar</button>
+</form>

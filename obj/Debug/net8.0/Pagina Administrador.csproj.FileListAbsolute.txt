@@ -1,0 +1,67 @@
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\appsettings.json
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\Pagina Administrador.staticwebassets.runtime.json
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\Pagina Administrador.staticwebassets.endpoints.json
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\Pagina Administrador.exe
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\Pagina Administrador.deps.json
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\Pagina Administrador.runtimeconfig.json
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\Pagina Administrador.dll
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\Pagina Administrador.pdb
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\MySql.EntityFrameworkCore.dll
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\obj\Debug\net8.0\Pagina Administrador.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\obj\Debug\net8.0\Pagina Administrador.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\obj\Debug\net8.0\Pagina Administrador.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\obj\Debug\net8.0\Pagina Administrador.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\obj\Debug\net8.0\Pagina Administrador.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\obj\Debug\net8.0\Pagina Administrador.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\obj\Debug\net8.0\Pagina Administrador.RazorAssemblyInfo.cache
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\obj\Debug\net8.0\Pagina Administrador.RazorAssemblyInfo.cs
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\obj\Debug\net8.0\scopedcss\bundle\Pagina Administrador.styles.css
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\obj\Debug\net8.0\scopedcss\projectbundle\Pagina Administrador.bundle.scp.css
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\obj\Debug\net8.0\staticwebassets\msbuild.Pagina Administrador.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\obj\Debug\net8.0\staticwebassets\msbuild.Pagina Administrador.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\obj\Debug\net8.0\staticwebassets\msbuild.build.Pagina Administrador.props
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Pagina Administrador.props
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Pagina Administrador.props
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\obj\Debug\net8.0\Pagina A.65FCDFA8.Up2Date
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\obj\Debug\net8.0\Pagina Administrador.dll
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\obj\Debug\net8.0\refint\Pagina Administrador.dll
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\obj\Debug\net8.0\Pagina Administrador.pdb
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\obj\Debug\net8.0\Pagina Administrador.genruntimeconfig.cache
+C:\Users\Usuario\Desktop\Pagina Administrador\Pagina Administrador\obj\Debug\net8.0\ref\Pagina Administrador.dll

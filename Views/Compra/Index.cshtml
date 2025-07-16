@@ -1,0 +1,76 @@
+﻿@model Pagina_Administrador.Models.CompraViewModel
+
+@{
+    ViewData["Title"] = "Compras";
+}
+
+<h2 class="mb-4">Gestión de Compras</h2>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="@(Model.Compra.IdCompra == 0 ? "Crear" : "Editar")" method="post">
+            <input type="hidden" asp-for="Compra.IdCompra" />
+
+            <div class="form-group">
+                <label asp-for="Compra.IdUsuario" class="control-label"></label>
+                <input asp-for="Compra.IdUsuario" class="form-control" />
+                <span asp-validation-for="Compra.IdUsuario" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Compra.Fecha" class="control-label"></label>
+                <input asp-for="Compra.Fecha" class="form-control" type="datetime-local" />
+                <span asp-validation-for="Compra.Fecha" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Compra.Total" class="control-label"></label>
+                <input asp-for="Compra.Total" class="form-control" />
+                <span asp-validation-for="Compra.Total" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Compra.Estado" class="control-label"></label>
+                <input asp-for="Compra.Estado" class="form-control" />
+                <span asp-validation-for="Compra.Estado" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-3">
+                <button type="submit" class="btn btn-primary">Guardar</button>
+                <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+            </div>
+        </form>
+    </div>
+
+    <div class="col-md-8">
+        <h4>Lista de Compras</h4>
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>ID Usuario</th>
+                    <th>Fecha</th>
+                    <th>Total</th>
+                    <th>Estado</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.ListaCompras)
+                {
+                    <tr>
+                        <td>@item.IdCompra</td>
+                        <td>@item.IdUsuario</td>
+                        <td>@(item.Fecha?.ToString("yyyy-MM-dd HH:mm"))</td>
+                        <td>@item.Total</td>
+                        <td>@item.Estado</td>
+                        <td>
+                            <a asp-action="Index" asp-route-id="@item.IdCompra" class="btn btn-sm btn-warning">Editar</a>
+                            <a asp-action="Eliminar" asp-route-id="@item.IdCompra" class="btn btn-sm btn-danger" onclick="return confirm('¿Seguro que deseas eliminar esta compra?')">Eliminar</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
